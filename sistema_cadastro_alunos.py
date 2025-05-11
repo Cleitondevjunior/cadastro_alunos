@@ -10,8 +10,8 @@ def conectar():
         conn = psycopg2.connect(
             host="localhost",
             database="db_escola",  # ajuste conforme seu banco
-            user="postgres",       # ajuste conforme seu usuário
-            password="root"        # ajuste conforme sua senha
+            user="",       # ajuste conforme seu usuário
+            password=""        # ajuste conforme sua senha
         )
         # Você pode descomentar a linha abaixo para visualizar no console:
         # print("Conexão estabelecida!")
